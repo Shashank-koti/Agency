@@ -65,7 +65,7 @@ export default function Footer() {
             </Typography>
             {['Home', 'About Us', 'Services', 'Contact Us', '404 Page'].map((text) => (
               <Typography key={text} variant="body2" sx={{ mt: 1 }}>
-                <Link href="#" color="inherit" underline="none">
+                <Link href="#home" color="inherit" underline="none">
                   {text}
                 </Link>
               </Typography>
