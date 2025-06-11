@@ -94,10 +94,15 @@ export default function ProjectsSection() {
           sx={{
             display: "flex",
             flexWrap: "wrap",
-            justifyContent: "space-between",
+            justifyContent: {
+              xs: "center",     // center on small screens
+              sm: "center",
+              md: "space-between",  // default spacing for medium and up
+            },
             gap: 3,
           }}
         >
+
           {projects.map(({ id, title, description, image }) => (
             <motion.div
               key={id}

@@ -26,8 +26,6 @@ export default function ServicesSection() {
     bgcolor: '#1a1a1a',
     color: '#fff',
     fontWeight: 500,
-    px: 2,
-    py: 1,
     fontSize: 13,
   };
 
@@ -157,6 +155,7 @@ export default function ServicesSection() {
                 icon={<CodeIcon />}
                 label="Frontend + Backend"
                 sx={chipStyle}
+                
               />
               <Chip
                 icon={<SpeedIcon />}
@@ -166,7 +165,7 @@ export default function ServicesSection() {
             </Stack>
           </Box>
         </Stack>
-
+        <hr />
         {/* Service 2 */}
         <Stack
           ref={ref2}
@@ -175,6 +174,7 @@ export default function ServicesSection() {
           justifyContent="space-between"
           spacing={4}
           mb={8}
+          mt={6}
           component={motion.div}
           initial={{ opacity: 0, y: 100 }}
           animate={isInView2 ? { opacity: 1, y: 0 } : {}}
@@ -198,7 +198,6 @@ export default function ServicesSection() {
                 borderRadius: 2,
               }}
             />
-
             <Typography variant="h5" fontWeight="bold" sx={{ mb: 1 }}>
               Tailor-Made for Your Business
             </Typography>
@@ -252,6 +251,8 @@ export default function ServicesSection() {
           </Box>
         </Stack>
 
+        <hr />
+
         {/* Service 3 */}
         <Stack
           ref={ref3}
@@ -259,6 +260,7 @@ export default function ServicesSection() {
           alignItems="center"
           justifyContent="space-between"
           spacing={4}
+          mt={6}
           component={motion.div}
           initial={{ opacity: 0, y: 100 }}
           animate={isInView3 ? { opacity: 1, y: 0 } : {}}
@@ -316,10 +318,10 @@ export default function ServicesSection() {
             </Typography>
 
             <Stack
-              direction="row"
-              spacing={4}
-              justifyContent={{ xs: 'center', md: 'flex-start' }}
+              direction="column"
+              spacing={3}
               flexWrap="wrap"
+              alignItems='center'
               color="#fff"
             >
               <Stack direction="row" alignItems="center" spacing={1}>
@@ -330,7 +332,7 @@ export default function ServicesSection() {
                 <SpeedIcon fontSize="small" />
                 <Typography variant="body2">Fast Loading</Typography>
               </Stack>
-              <Stack direction="row" alignItems="center" spacing={1}>
+              <Stack direction="row" alignItems="center" spacing={1} >
                 <SupportAgentIcon fontSize="small" />
                 <Typography variant="body2">24/7 Support</Typography>
               </Stack>

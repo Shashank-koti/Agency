@@ -113,7 +113,7 @@ export default function ContactForm({ onClose }) {
           <IconButton sx={{ position: 'absolute', top: 5, right: 8, color: '#fff' }} onClick={onClose}>
             <CloseIcon />
           </IconButton>
-          <Typography variant="h5" gutterBottom align="center">Book a Meeting</Typography>
+          <Typography variant="h5" gutterBottom align="center" color='white'>Book a Meeting</Typography>
           <form onSubmit={handleSubmit} noValidate>
             <TextField
               name="name"
