@@ -7,7 +7,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Logo from '../animations/mainLogo.png';
 import ContactForm from './ContactForm';
 
-const navLinks = ['Home', 'About', 'Price', 'Contact'];
+const navLinks = ['Home', 'About', 'Services', 'Contact'];
 
 export default function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false);

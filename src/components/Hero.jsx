@@ -141,8 +141,7 @@ export default function Hero() {
                 color: '#aaa',
               },
             }}
-          >
-            View services
+          ><a href="#services">View services</a>
           </Button>
         </Stack>
       </motion.div>

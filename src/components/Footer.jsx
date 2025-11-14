@@ -9,9 +9,9 @@ import Logo from "../animations/mainLogo.png";
 export default function Footer() {
   const socials = [
     { name: 'Instagram', icon: <InstagramIcon sx={{ mr: 0.5 }} />, url: 'https://www.instagram.com/shashichowdary_5/' },
-    { name: 'Facebook', icon: <FacebookIcon sx={{ mr: 0.5 }} />, url: 'https://facebook.com' },
     { name: 'LinkedIn', icon: <LinkedInIcon sx={{ mr: 0.5 }} />, url: 'https://linkedin.com' },
     { name: 'Twitter', icon: <TwitterIcon sx={{ mr: 0.5 }} />, url: 'https://twitter.com' },
+    { name: '+91 9493247884' },
   ];
 
   return (
