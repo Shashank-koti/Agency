@@ -42,10 +42,10 @@ export default function Navbar() {
               src={Logo}
               alt="WebWave Logo"
               sx={{
-                height: 80, // responsive sizes
+                height: 60, // responsive sizes
                 width: "auto",
                 objectFit: "contain",
-                ml: 4,
+                ml:2
               }}
             />
           </a>

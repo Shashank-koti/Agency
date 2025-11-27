@@ -45,7 +45,7 @@ export default function Footer() {
                   height: 100, // responsive sizes
                   width: "auto",
                   objectFit: "contain",
-                  ml: 10,
+                  ml: 6,
                 }}
               />
             </Box>
