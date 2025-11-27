@@ -31,7 +31,7 @@ export default function ServicesSection() {
 
   return (
     <Box
-      id="Services"
+      id="services"
       sx={{
         bgcolor: '#000',
         color: '#fff',
